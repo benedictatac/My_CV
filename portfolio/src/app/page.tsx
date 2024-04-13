@@ -1,6 +1,5 @@
 import Navbar from "../../components/navbar";
 import styles from "../../styles/globals.css"
-export {default as NavBar} from "../../components/navbar";
 
 
 export default function Home() {
