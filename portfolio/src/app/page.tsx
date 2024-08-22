@@ -1,12 +1,13 @@
-import Navbar from "../../components/navbar";
-import styles from "../../styles/globals.css"
+import "../../styles/globals.css"; // Import global styles correctly
 
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="main-page flex flex-col h-screen">
-      <Navbar/>
-      <main className={`${styles.main} flex-grow`}>
+    <div className="home-page flex flex-col h-screen">
+      <main className="flex-grow">
+        {/* Content specific to the Home page */}
+        <h1 className="text-center text-xl text-black">Home Page</h1>
+        <h2> This is going to be my Home Page </h2>
+        {/* Additional content goes here */}
       </main>
     </div>
   );
