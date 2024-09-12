@@ -13,16 +13,16 @@ const Navbar: React.FC = () => {
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
               {/* Corrected Home link */}
-              <Link href="/" className="text-gray-500 dark:text-gray-400 hover:bg-white hover:text-black rounded-lg">
+              <Link href="/" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Home
               </Link>
-              <Link href="/AboutMePage" className="text-gray-500 dark:text-gray-400 hover:bg-white hover:text-black rounded-lg">
+              <Link href="/AboutMePage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 About Me
               </Link>
-              <Link href="/MyEducationPage" className="text-gray-500 dark:text-gray-400 hover:bg-white hover:text-black rounded-lg">
+              <Link href="/MyEducationPage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Education
               </Link>
-              <Link href="/MyExperiencesPage" className="text-gray-500 dark:text-gray-400 hover:bg-white hover:text-black rounded-lg">
+              <Link href="/MyExperiencesPage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Experience
               </Link>
             </div>
