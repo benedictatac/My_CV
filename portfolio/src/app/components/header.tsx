@@ -4,12 +4,15 @@ import Navbar from "./navbar"; // Import the Navbar
 const Header: React.FC = () => {
   return (
     <React.Fragment>
-      <header className="bg-transparent"> {/* same logic from footer applies here for bg-color */}
-      {/* You can add additional header content here if needed */}
-      <Navbar /> {/* Navbar is part of the header */}
+      <header className="bg-transparent text-white py-4">
+        {/* Same logic for margin and padding */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center">
+            <Navbar /> {/* Navbar is part of the header */}
+          </div>
+        </div>
       </header>
     </React.Fragment>
-    
   );
 };
 

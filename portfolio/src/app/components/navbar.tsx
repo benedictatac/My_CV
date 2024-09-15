@@ -3,19 +3,21 @@ import Link from "next/link"; // Import Link from next/link
 
 const Navbar: React.FC = () => {
   return (
-    <nav > 
+    <nav className="fixed top-0 right-0 w-full bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
+              {/* Optional logo or brand name */}
             </div>
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-              {/* Corrected Home link */}
-              <Link href="/" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
-                Home
-              </Link>
+              <button>
+                <Link href="/" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
+                  Home
+                </Link>
+              </button>
               <Link href="/AboutMePage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 About Me
               </Link>
