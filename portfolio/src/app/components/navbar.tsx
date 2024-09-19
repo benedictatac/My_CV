@@ -18,15 +18,21 @@ const Navbar: React.FC = () => {
                   Home
                 </Link>
               </button>
+              <button>
               <Link href="/AboutMePage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 About Me
               </Link>
+              </button>
+              <button>
               <Link href="/MyEducationPage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Education
               </Link>
+              </button>
+              <button>
               <Link href="/MyExperiencesPage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Experience
               </Link>
+              </button>
             </div>
           </div>
         </div>

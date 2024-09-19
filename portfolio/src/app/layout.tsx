@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../../styles/globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,9 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gradient-to-b from-[#0e1c26] to-[#2a454b]`} >
+      <body className={`${inter.className} bg-gradient-to-b from-[#0e1c26] to-[#2a454b]`}>
         <Header /> {/* Navbar is included here */}
-        {children}
+        
+        {/* Main content section with spacing */}
+        <main className="container mx-auto mt-16 px-4">
+          {children}
+        </main>
+        
         <Footer/>
       </body>
     </html>
