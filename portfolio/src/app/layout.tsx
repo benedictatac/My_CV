@@ -22,7 +22,7 @@ export default function RootLayout({
         <Header /> {/* Navbar is included here */}
         
         {/* Main content section with spacing */}
-        <main className="container mx-auto mt-16 px-4">
+        <main className="container mx-auto mt-14 px-4">
           {children}
         </main>
         
