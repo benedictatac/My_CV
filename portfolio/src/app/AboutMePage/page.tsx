@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "../../../styles/globals.css"; // Import global styles correctly
+import Carousel from "../components/carousel"; // Import the Carousel component
 
 export default function AboutMePage() {
   return (
@@ -9,7 +10,8 @@ export default function AboutMePage() {
         <h1 className="text-white">Who am I</h1>
       <section className="bg-gray-200 p-4 flex justify-between items-center h-96 mt-8">
       <div className="flex-1 bg-slate-900 h-full">
-        <p>This will contain some photos of me that are slidable</p>
+      <p>This will contain some photos of me that are slidable</p>
+      <Carousel/>
       </div>
       <div className="bg-black h-full w-1/4">
       <p>This section will contain some type of text</p>
