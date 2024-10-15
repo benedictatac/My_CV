@@ -1,26 +1,30 @@
 "use client";
-//changed file
 import { useState } from "react";
 
 const Carousel = () => {
+  // State to keep track of the current slide index
   const [slideIndex, setSlideIndex] = useState(0);
   
+  // Array of slide image paths
   const slides = [
     "/Pictures/20240824_192403.jpg",
     "/Pictures/20240825_155404.jpg",
-    "/Pictures/411461220_744859607678216_2620351671954661759_n.jpg"
+    "/Pictures/411461220_744859607678216_2620351671954661759_n.jpg",
+    "/Pictures/411467921_744861064344737_2301901456033727082_n (1).jpg"
   ];
 
+  // Function to handle previous slide navigation
   const handlePrevSlide = () => {
     setSlideIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
   };
 
+  // Function to handle next slide navigation
   const handleNextSlide = () => {
     setSlideIndex((prevIndex) => (prevIndex + 1) % slides.length);
   };
 
   return (
-    <div id="indicators-carousel" className="relative w-full mb-8" data-carousel="static">
+    <div id="indicators-carousel" className="relative w-full mb-8 pb-10 carousel-container" data-carousel="static">
       {/* Carousel wrapper */}
       <div className="relative w-full h-48 sm:h-56 md:h-96 overflow-hidden rounded-lg">
         {slides.map((slide, index) => (
@@ -31,7 +35,7 @@ const Carousel = () => {
           >
             <img
               src={slide}
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain max-w-full max-h-full"
               alt={`Slide ${index + 1}`}
             />
           </div>

@@ -36,3 +36,23 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+/* Style for carousel container */
+.carousel-container {
+  width: 100%; /* Sets the carousel width to take the full width of its parent container */
+  height: 100%; /* Allows it to take the height of its parent container or be adjusted as needed */
+  overflow: hidden; /* Ensures no content overflows outside the boundaries of the container */
+  display: flex; /* Centers images inside the container */
+  align-items: center; /* Vertically centers content in the container */
+  justify-content: center; /* Horizontally centers content in the container */
+}
+
+/* Style for images inside the carousel */
+.carousel-container img {
+  width: 100%; /* Makes the image fill the full width of the container */
+  height: 100%; /* Ensures the image also fills the height of the container */
+  object-fit: contain; /* Maintains the image's aspect ratio and covers the entire container */
+}
+
