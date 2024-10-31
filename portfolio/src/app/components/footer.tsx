@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-transparent text-white py-4">   {/*We wanna blend in the footer to the background color so make it transparent*/}
+    <footer className="bg-transparent text-white py-4 flex-grow">   {/*We wanna blend in the footer to the background color so make it transparent*/}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center ">
           <div>

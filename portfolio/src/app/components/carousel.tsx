@@ -26,7 +26,7 @@ const Carousel = () => {
   return (
     <div id="indicators-carousel" className="relative w-full mb-8 pb-10 carousel-container" data-carousel="static">
       {/* Carousel wrapper */}
-      <div className="relative w-full h-48 sm:h-56 md:h-96 overflow-hidden rounded-lg">
+      <div className="relative w-full h-48 sm:h-56 md:h-96 overflow-hidden rounded-lg ">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -35,7 +35,7 @@ const Carousel = () => {
           >
             <img
               src={slide}
-              className="w-full h-full object-contain max-w-full max-h-full"
+              className="w-full h-full object-contain max-w-full max-h-full border-solid border-4 border-gray-300 "
               alt={`Slide ${index + 1}`}
             />
           </div>
