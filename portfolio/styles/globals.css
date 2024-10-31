@@ -56,3 +56,13 @@ body {
   object-fit: contain; /* Maintains the image's aspect ratio and covers the entire container */
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.about-page::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.about-page {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
