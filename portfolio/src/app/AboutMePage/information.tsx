@@ -84,13 +84,42 @@ return(
     </section>
     {/* Section 4 */}
     <section className="min-h-screen flex flex-col justify-center items-center w-auto">
-    <div className="flex flex-row justify-between w-full px-10 sm:px-20">
-        <div className="flex-grow bg-black h-full w-1/2">
+      <div className="flex flex-row justify-between w-full px-10 sm:px-20 h-auto">
+          <div className="flex-grow bg-transparent w-1/2 h-full">   
+            <p>
+              Hard to say... click on one of these and maybe you will find out! 
+            </p>
+            <br></br>
+          <dl>
+            <li className="mb-2">
+              <a href="https://github.com/benedictatac" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              GitHub
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="https://www.linkedin.com/in/charles-atanacio-1b3b5b24b/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              LinkedIn
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="https://www.instagram.com//charlesatanacio_/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              Instagram
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="https://www.facebook.com/Atanacio2" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              Facebook
+              </a>
+            </li>
+          </dl>
+          </div>
+          <div className="flex-grow bg-transparent h-full w-1/2">
+          <h1 className="text-center text-4xl font-size m-4">
+            What are my goals?
+          </h1> 
+          </div>
         </div>
-        <div className="flex-grow bg-white h-full w-1/2">
-        </div>
-      </div>
-    </section>{/* Additional sections can be added here */}
+    </section>
   </div>
 )
 
