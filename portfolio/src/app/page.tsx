@@ -1,6 +1,7 @@
 import "../../styles/globals.css"; // Import global styles correctly
 import AboutMeInfo from "./AboutMePage/information";
 import HomePage from "./HomePage/aboutme";
+import Introduction from "./AboutMePage/introduction";
 
 export default function mainPage(){
   return (
@@ -13,7 +14,9 @@ export default function mainPage(){
         <section id = "home" className="flex-grow justify-center">
           <HomePage/>
         </section>
-        <section></section>
+        <section className="min-h-screen flex flex-col justify-center items-center mr-auto ml-auto">
+        <Introduction/>
+        </section>
         <section id = "aboutme" className="flex-grow justify-center items-center min-h-screen">
           <div className="flex items-center justify-center min-h-screen p-6">
             <AboutMeInfo/>
