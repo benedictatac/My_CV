@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
                 </Link>
               </button>
               <button>
-              <Link href="#aboutme" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
+              <Link href="#aboutme"  className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 About Me
               </Link>
               </button>
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
               </Link>
               </button>
               <button>
-              <Link href="myExperience" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
+              <Link href="#myExperience" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Experience
               </Link>
               </button>

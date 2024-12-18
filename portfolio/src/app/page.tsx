@@ -9,14 +9,14 @@ export default function mainPage(){
         Charles Benedict Villafuerte Atanacio
       </div>
       <main className="flex-grow">
-        <div className="grid grid-cols-1 row-span-1">
+        <div className="flex-grow grid-cols-1 row-span-1">
         <section id = "home" className="flex-grow justify-center">
           <HomePage/>
         </section>
         <section></section>
         <section id = "aboutme" className="flex-grow justify-center items-center min-h-screen">
           <div className="flex items-center justify-center min-h-screen p-6">
-            {/* <AboutMeInfo/> */}
+            <AboutMeInfo/>
           </div>
         </section>
         <section id = "myeducation"></section>
