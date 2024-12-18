@@ -14,22 +14,22 @@ const Navbar: React.FC = () => {
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
               <button>
-                <Link href="/" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
+                <Link href="#home" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                   Home
                 </Link>
               </button>
               <button>
-              <Link href="/AboutMePage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
+              <Link href="#aboutme" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 About Me
               </Link>
               </button>
               <button>
-              <Link href="/MyEducationPage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
+              <Link href="#myeducation" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Education
               </Link>
               </button>
               <button>
-              <Link href="/MyExperiencesPage" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
+              <Link href="myExperience" className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
                 Experience
               </Link>
               </button>
