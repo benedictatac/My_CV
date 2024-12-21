@@ -1,6 +1,6 @@
 export default function Introduction() {
 return (    
-<div>
+<div className="introduction">
 <h1 className="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight bg-gradient-to-r from-[#0e1c26] to-[#bbcace] text-transparent bg-clip-text md:text-5xl lg:text-6xl dark:from-[#020303] dark:to-[#3295b1]">
   Who am I
 </h1>

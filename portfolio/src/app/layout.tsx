@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../../styles/globals.css";
+import "../app/styles/globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 
@@ -20,9 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-gradient-to-b from-[#0e1c26] to-[#2a454b]`}>
         <Header /> {/* Navbar is included here */}
-        
-        {/* Main content section with spacing */}
-        <main className="container mx-auto mt-14 px-4">
+       
+        <main className="container mx-auto  px-4">
           {children}
         </main>
         
