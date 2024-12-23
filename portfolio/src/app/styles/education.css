@@ -44,15 +44,15 @@
 
 .secondary {
   grid-area: secondary;
-  background-color: blueviolet;
+  background-color: transparent;
 }
 
 .cegep {
   grid-area: cegep;
-  background-color: red;
+  background-color: transparent;
 }
 
 .university {
   grid-area: university;
-  background-color: yellow;
+  background-color: transparent;
 }
