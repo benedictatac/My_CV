@@ -10,10 +10,10 @@ export default function Education() {
         </h1>
       </div>
       <div className="education">
-      <div className="primary flex justify-center items-center"><HoverReveal/></div>
-      <div className="secondary">Secondary</div>
-      <div className="cegep">Cegep</div>
-      <div className="university">University</div>
+      <div className="primary flex justify-center items-center">Primary</div>
+      <div className="secondary flex justify-center items-center">Secondary</div>
+      <div className="cegep flex justify-center items-center">Cegep</div>
+      <div className="university flex justify-center items-center">University</div>
       </div>
     </div>
   );
