@@ -10,7 +10,9 @@ const Carousel = () => {
     "/Pictures/20240824_192403.jpg",
     "/Pictures/20240825_155404.jpg",
     "/Pictures/411461220_744859607678216_2620351671954661759_n.jpg",
-    "/Pictures/411467921_744861064344737_2301901456033727082_n (1).jpg"
+    "/Pictures/411467921_744861064344737_2301901456033727082_n (1).jpg",
+    "/Pictures/20240825_132515.jpg",
+    "/Pictures/IMG_1008.JPG"
   ];
 
   // Function to handle previous slide navigation

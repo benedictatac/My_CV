@@ -2,6 +2,7 @@ import "../app/styles/globals.css"; // Import global styles correctly
 import AboutMeInfo from "./AboutMePage/information";
 import HomePage from "./HomePage/aboutme";
 import Introduction from "./AboutMePage/introduction";
+import Education from "./MyEducationPage/education";
 
 export default function mainPage(){
   return (
@@ -21,7 +22,9 @@ export default function mainPage(){
           <Introduction/>
           <AboutMeInfo/>
         </section>
-        <section id = "myeducation" className = ""></section>
+        <section id = "myeducation" className = "flex-grow mt-24 ">
+        <Education/>
+        </section>
         <section id = "myExperience"></section>
         </div>
       </main>
