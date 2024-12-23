@@ -9,7 +9,12 @@ export default function Education() {
           <span className="relative z-10 bg-gradient-to-r from-[#0e1c26] to-[#21b8e2] bg-clip-text text-transparent animate-pulse">Education</span>
         </h1>
       </div>
-      <div className="education"></div>
+      <div className="education">
+      <div className="primary flex justify-center items-center"><HoverReveal/></div>
+      <div className="secondary">Secondary</div>
+      <div className="cegep">Cegep</div>
+      <div className="university">University</div>
+      </div>
     </div>
   );
 }
