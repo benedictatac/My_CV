@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/education.css";
+import HoverReveal from "../components/hoverReveal";
 
 export default function Education() {
   return (
@@ -10,7 +11,7 @@ export default function Education() {
         </h1>
       </div>
       <div className="education">
-      <div className="primary flex justify-center items-center">Primary</div>
+      <div className="primary flex justify-center items-center"><HoverReveal/></div>
       <div className="secondary flex justify-center items-center">Secondary</div>
       <div className="cegep flex justify-center items-center">Cegep</div>
       <div className="university flex justify-center items-center">University</div>
