@@ -34,12 +34,14 @@
 .university {
   width: 100%; 
   height: 100%; /* Fully fit cell height */
+  top:-100px;
+  position:relative;
 }
 
 .primary {
   grid-area: primary;
   background-color: transparent;
-  position: relative;
+
 }
 
 .secondary {

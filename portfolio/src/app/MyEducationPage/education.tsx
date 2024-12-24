@@ -13,10 +13,22 @@ export default function Education() {
       <div className="education">
       <div className="primary flex justify-center items-center"><HoverReveal
       title = "Primary "
+      content = {`From Grade 1-4, I was studying in a Private Catholic School in the Philippines 
+      before moving to Canada and finishing my 5th-6th grades in Fernand Seguin, in the South Shore of Montreal.`}/></div>
+      <div className="secondary flex justify-center items-center"><HoverReveal
+      title = "Highschool"
+      content = {<>For Highschool, I did the first 3 years of my highschool in Fernand Seguin and moved to La Magdeleine, <br /> in order to finish
+                  the last 2 years. During that time, I was able to make connections as a growing teen and was able to participate in multiple 
+                  events such as participation in weightlifting competitions as well as having been introduced to boxing, art and philosophy.\
+                  After graduating, I decided to embark on a 1 year journey to obtain pre-requisites for advanced Math and Sciences,
+                  on the off chance that I decide to continue in the field of sciences (which I did, in the end).
+      </>}/></div>
+      <div className="cegep flex justify-center items-center "><HoverReveal
+      title = "Cegep"
       content = "This is whats inside"/></div>
-      <div className="secondary flex justify-center items-center">Secondary</div>
-      <div className="cegep flex justify-center items-center">Cegep</div>
-      <div className="university flex justify-center items-center">University</div>
+      <div className="university flex justify-center items-center"><HoverReveal
+      title = "University"
+      content = "This is whats inside"/></div>
       </div>
     </div>
   );
