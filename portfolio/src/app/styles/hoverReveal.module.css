@@ -14,6 +14,7 @@
 
 .revealText:hover {
   color: #0cc9e6; /* Change color on hover */
+  ;
 }
 
 .revealContent {
@@ -29,6 +30,7 @@
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
+  white-space: pre-line;
 }
 
 .container:hover .revealContent {
