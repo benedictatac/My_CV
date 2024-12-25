@@ -3,6 +3,7 @@ import AboutMeInfo from "./AboutMePage/information";
 import HomePage from "./HomePage/aboutme";
 import Introduction from "./AboutMePage/introduction";
 import Education from "./MyEducationPage/education";
+import Experience from "@/MyExperiencePage/experience";
 
 export default function mainPage(){
   return (
@@ -25,8 +26,8 @@ export default function mainPage(){
         <section id = "myeducation" className = "flex-grow justify-center mt-48 ">
         <Education/>
         </section>
-        <section id = "myExperience" className="flex-grow justify-center">
-          <div className="flex-grow min-h-screen items-center justify-center"></div>
+        <section id = "myExperience" className="flex-grow justify-center mt-48">
+          <Experience/>
         </section>
         </div>
       </main>

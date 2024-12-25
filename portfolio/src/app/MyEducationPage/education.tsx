@@ -1,3 +1,4 @@
+"use"
 import React from "react";
 import "../styles/education.css";
 import HoverReveal from "../components/hoverReveal";
@@ -37,8 +38,8 @@ export default function Education() {
       </>}/></div>
       <div className="university flex justify-center items-center shadow-lg border-r-4 rounded-lg"><HoverReveal
       title = {<span className="gradient-title">University</span>}
-      content = {<>Currently am finishing a Bachelor of Engineering - Computer Engineering <br/>
-      Includes relevant courses such as: 
+      content = {<><p>Currently am finishing a Bachelor of Engineering - Computer Engineering at Concordia University <br/>
+      Includes relevant courses such as:</p> 
       <br/>
       <div className="list-container">
       <ul className="list-disc list-inside dark:text-blue-400">
@@ -47,7 +48,7 @@ export default function Education() {
         <li>Capstone Computer/Electrical Engineering Design Project</li>  
       </ul>
       </div>
-      </>}/></div>
+      </> }/></div>
       </div>
     </div>
   );
