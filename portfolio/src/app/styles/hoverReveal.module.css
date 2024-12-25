@@ -7,7 +7,7 @@
 .revealText {
   font-size: 4rem;
   font-weight: bold;
-  position: relative;
+  position: inline-block;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -22,7 +22,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  min-width: 200px;
   background-color: transparent;
   padding: 10px;
   border-radius: 8px;
@@ -31,6 +31,7 @@
   transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
   white-space: pre-line;
+  max-width: none;
 }
 
 .container:hover .revealContent {
