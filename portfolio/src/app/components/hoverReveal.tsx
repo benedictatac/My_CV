@@ -3,7 +3,7 @@ import styles from '../styles/hoverReveal.module.css';
 
 
 interface HoverRevealProps {
-  title: string;
+  title:  React.ReactNode;
   content: React.ReactNode;
 }
 const HoverReveal: React.FC<HoverRevealProps> = ({title, content}) => {

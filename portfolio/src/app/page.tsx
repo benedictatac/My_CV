@@ -22,10 +22,12 @@ export default function mainPage(){
           <Introduction/>
           <AboutMeInfo/>
         </section>
-        <section id = "myeducation" className = "flex-grow mt-24 ">
+        <section id = "myeducation" className = "flex-grow justify-center mt-48 ">
         <Education/>
         </section>
-        <section id = "myExperience"></section>
+        <section id = "myExperience" className="flex-grow justify-center">
+          <div className="flex-grow min-h-screen items-center justify-center"></div>
+        </section>
         </div>
       </main>
     </div>
