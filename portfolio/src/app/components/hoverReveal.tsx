@@ -11,9 +11,9 @@ const HoverReveal: React.FC<HoverRevealProps> = ({title, content}) => {
     <div className={styles.container}>
       <h2 className={styles.revealText}>{title}</h2>
       <div className={styles.revealContent}>
-        <p>
+        <div>
           {content}
-        </p>
+        </div>
       </div>
     </div>
   );

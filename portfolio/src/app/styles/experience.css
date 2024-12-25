@@ -1,0 +1,66 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+    "marios uni-select"
+    "gsm matrox";
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+   
+
+}
+
+.marios,
+.uni-select,
+.gsm,
+.matrox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height:100vh;
+    background-color: transparent;
+    
+}
+
+.marios{
+    grid-area: marios;
+    
+}
+
+
+.uni-select{
+    grid-area: uni-select;
+    background-color: salmon;
+
+}
+
+.gsm{
+    grid-area: gsm;
+    background-color: lightgreen;
+}
+
+.matrox{
+    grid-area: matrox;
+    background-color: red;
+}
