@@ -12,23 +12,61 @@ export default function Experience() {
                 <div className="marios">
                     <img src="Pictures/Marios.jpg" className="marios-img" alt="Marios Picture"></img>
                     <div className="marios-content">
-                    <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Job Titles</h1>
-                        <ul className="list-disc list-inside">
+                    <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10 ">Job Titles</h1>
+                    <ul className="list-disc">
+                        <li className="ml-4">
+                            <span className="text-pretty flex-auto text-gray-500 dark:text-gray-400">Cook</span>
                             <br/>
-                        <li>
-                        <span className="text-lg font-bold">Cook</span>
+                            <span className="text-gray-500 dark:text-gray-400"> Year:  Jun 2018 - May 2023 · 5 yrs</span>
                         </li>
-                        </ul>
-
-
+                        <li className="ml-4">
+                            <span className="text-pretty flex-auto text-gray-500 dark:text-gray-400">Dishwasher</span>
+                            <br/>
+                            <span className="text-gray-500 dark:text-gray-400"> Year:  May 2017 - June 2018 · 1y 2mos </span>
+                        </li>
+                    </ul>
                     </div>
                 </div>
                 <div className="uniSelect">
-                    <img src="Pictures/planchers_GSM.png" className="uniSelect-img" alt="Uni-SelectPicture"></img>
-                    <div></div>
+                <img src="Pictures/Uni-Select-Logo.png" className="uniSelect-img" alt="uniSelect-picture"></img>
+                    <div className="gsm-content">
+                    <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10">Job Title</h1>
+                    <ul className="list-disc">
+                        <li className="ml-4">
+                            <span className="text-pretty flex-auto text-gray-500 dark:text-gray-400">Factory Worker</span>
+                            <br/>
+                            <span className="text-gray-500 dark:text-gray-400 m-3"> Year:  May 2019 - Oct 2019 · 6 mos</span>
+                        </li> 
+                    </ul>
+                    </div>
                 </div>
-                <div className="gsm"></div>
-                <div className="matrox"></div>
+                <div className="gsm">
+                    <img src="Pictures/planchers_GSM.png" className="gsm-img" alt="GSM-Picture"></img>
+                    <div className="gsm-content">
+                    <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10">Job Title</h1>
+                    <ul className="list-disc">
+                        <li className="ml-4">
+                            <span className="text-pretty flex-auto text-gray-500 dark:text-gray-400">Delivery Driver</span>
+                            <br/>
+                            <span className="text-gray-500 dark:text-gray-400 m-3"> Year:  Oct 2020 - Jun 2021 · 9 mos</span>
+                        </li>
+                        
+                    </ul>
+                    </div>
+                </div>
+                <div className="matrox">
+                <img src="Pictures/Matrox.jpg" className="matrox-img" alt="Matrox Picture"></img>
+                    <div className="matrox-content">
+                    <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10">Job Title</h1>
+                    <ul className="list-disc">
+                        <li className="ml-4">
+                            <span className="text-pretty flex-auto text-gray-500 dark:text-gray-400">Software Quality Assurance Engineer</span>
+                            <br/>
+                            <span className="text-gray-500 dark:text-gray-400 m-3"> Year:  May 2023 - Aug 2023 · 4 mos</span>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
             </div>
         </div>
     );
