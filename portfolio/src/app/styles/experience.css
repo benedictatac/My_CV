@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: 50px;
 }
 
 .marios,
@@ -39,66 +40,105 @@
     border-radius: 10px;
     height:100vh;
     background-color: transparent;
-    
+    /* border: 1px solid black;     */
+    height:500px;
 }
 
 .marios{
     grid-area: marios;
     flex-direction: column;
     justify-content: flex-start;
-    
+     
 }
 
 .marios-img{
     width: 500px;  
     height: auto; 
-    object-fit: cover; 
+    object-fit: contain; 
     align-items: flex-start;
+    border-radius: 20px;
+
 }
 
 .marios-content 
 {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 500px; 
+}
+
+.gsm{
+    grid-area: gsm;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.gsm-img{
+    width: 500px;
+    height: 282px;
+    object-fit: contain;
+    background-color: transparent;
+    border-radius: 20px;
+    
+    
+}
+.gsm-content{
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    margin-top: 10px;
-    height: 100vh;
-    width: 100%;
+    width: 500px;
 }
 .uniSelect{
     grid-area: uniSelect;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+   
+
 
 }
 .uniSelect-img{
-   width: fit-content;
-    height: 400px;
-    object-fit: cover;
+    width: 500px;
+    height: 282px;
+    object-fit: contain;
     background-color: white;
+    border-radius: 20px;
+ 
+   
+}
+.uniSelect-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
 }
 
-.gsm{
-    grid-area: gsm;
-    background-color: lightgreen;
-}
-
-.gsm-img{
-    width: fit-content;  
-    height: auto; 
-    object-fit: cover; 
-}
 
 .matrox{
     grid-area: matrox;
-    background-color: red;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+
 }
 
 .matrox-img{
-    width: fit-content;  
-    height: auto; 
-    object-fit: cover; 
+    width: 500px;
+    height: 282px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.matrox-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
 }
