@@ -2,7 +2,7 @@
   "dependencies": {
     "@types/react": "^19.0.2",
     "autoprefixer": "^10.4.20",
-    "next": "^15.1.4",
+    "next": "latest",
     "node": "^21.2.0",
     "postcss": "^8.4.47",
     "react": "latest",
@@ -13,10 +13,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "vercel-build": "next build"
+},
   "devDependencies": {
     "@types/node": "22.10.5",
     "eslint": "^9.18.0",
