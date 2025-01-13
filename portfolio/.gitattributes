@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c4f678ed8f1bd3e4cd8afb871589ce2e14b9a7f4b86935ac0df983f6ae5e3773
-size 77
+node_modules/next/next-swc-fallback/**/* filter=lfs diff=lfs merge=lfs -text
