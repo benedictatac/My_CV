@@ -3,7 +3,7 @@ import AboutMeInfo from "./AboutMePage/information";
 import HomePage from "./HomePage/aboutme";
 import Introduction from "./AboutMePage/introduction";
 import Education from "./MyEducationPage/education";
-import Experience from "@/MyExperiencePage/experience";
+import Experience from "./MyExperiencePage/experience";
 
 export default function mainPage(){
   return (
