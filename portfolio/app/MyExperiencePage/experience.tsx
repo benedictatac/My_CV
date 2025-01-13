@@ -11,7 +11,7 @@ export default function Experience() {
             </div>
             <div className="content">
                 <div className="marios">
-                    <Image src="Pictures/Marios.jpg" className="marios-img" alt="Marios Picture"></Image>
+                    <Image src="/Pictures/Marios.jpg" className="marios-img" width="500" height= "282" alt="Marios Picture"></Image>
                     <div className="marios-content">
                     <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10 ">Job Titles</h1>
                     <ul className="list-disc">
@@ -29,7 +29,7 @@ export default function Experience() {
                     </div>
                 </div>
                 <div className="uniSelect">
-                <Image src="Pictures/Uni-Select-Logo.png" className="uniSelect-img" alt="uniSelect-picture"></Image>
+                <Image src="/Pictures/Uni-Select-Logo.png" className="uniSelect-img" width="500" height= "282"alt="uniSelect-picture"></Image>
                     <div className="gsm-content">
                     <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10">Job Title</h1>
                     <ul className="list-disc">
@@ -42,7 +42,7 @@ export default function Experience() {
                     </div>
                 </div>
                 <div className="gsm">
-                    <Image src="Pictures/planchers_GSM.png" className="gsm-img" alt="GSM-Picture"></Image>
+                    <Image src="/Pictures/planchers_GSM.png" className="gsm-img" width="500" height= "282" alt="GSM-Picture"></Image>
                     <div className="gsm-content">
                     <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10">Job Title</h1>
                     <ul className="list-disc">
@@ -56,7 +56,7 @@ export default function Experience() {
                     </div>
                 </div>
                 <div className="matrox">
-                <Image src="Pictures/Matrox.jpg" className="matrox-img" alt="Matrox Picture"></Image>
+                <Image src="/Pictures/Matrox.jpg" className="matrox-img" width="500" height= "282" alt="Matrox Picture"></Image>
                     <div className="matrox-content">
                     <h1 className="mb-4 text-3xl leading-none tracking-tight mt-10">Job Title</h1>
                     <ul className="list-disc">
