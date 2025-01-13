@@ -33,12 +33,12 @@ export default function Education() {
       </span>}/></div>
       <div className="cegep flex justify-center items-center shadow-lg border-r-4 rounded-lg"><HoverReveal
       title = {<span className="gradient-title">Cegep</span>}
-      content = {<>Attained a 2 year Diplomes detudes collegials(DEC)/Diploma of College Studies(DCS) at Champlain College,<br/>
+      content = {<span className="text-white">Attained a 2 year Diplomes detudes collegials(DEC)/Diploma of College Studies(DCS) at Champlain College,<br/>
       in the field of <span className="dark:text-blue-400"> Liberal Arts</span>.
-      </>}/></div>
+      </span>}/></div>
       <div className="university flex justify-center items-center shadow-lg border-r-4 rounded-lg"><HoverReveal
       title = {<span className="gradient-title">University</span>}
-      content = {<><p>Currently am finishing a Bachelor of Engineering - Computer Engineering at Concordia University <br/>
+      content = {<span className="text-white"><p>Currently am finishing a Bachelor of Engineering - Computer Engineering at Concordia University <br/>
       Includes relevant courses such as:</p> 
       <br/>
       <div className="list-container">
@@ -48,7 +48,7 @@ export default function Education() {
         <li>Capstone Computer/Electrical Engineering Design Project</li>  
       </ul>
       </div>
-      </> }/></div>
+      </span> }/></div>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import "../app/styles/experience.css";
+import "../styles/experience.css";
 
 export default function Experience() {
     return (
