@@ -10,7 +10,7 @@ return(
         <div style={{ backgroundColor: "transparent" }} className="stuff">
             <div className="flex-grow flex-col items-start">
                 <p className="text-gray-500 dark:text-gray-400 m-3">
-                    I won't go into the intricate details but at least, I will enumerate some qualities that make me a dependable person. 
+                    I won&apost go into the intricate details but at least, I will enumerate some qualities that make me a dependable person. 
                     I am a person who is: 
                 </p>
                 <ul className="list-disc list-inside text-gray-500 dark:text-gray-400 m-3">
