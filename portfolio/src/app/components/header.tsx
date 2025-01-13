@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <> {/* Fragment to wrap the header */} 
       <header className="bg-transparent text-white py-8 ">
         {/* Same logic for margin and padding */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex justify-between items-center">
             <Navbar /> {/* Navbar is part of the header */}
           </div>
