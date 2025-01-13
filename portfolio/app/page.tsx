@@ -1,4 +1,4 @@
-import "../app/styles/globals.css"; // Import global styles correctly
+import "./styles/globals.css"; // Import global styles correctly
 import AboutMeInfo from "./AboutMePage/information";
 import HomePage from "./HomePage/aboutme";
 import Introduction from "./AboutMePage/introduction";
