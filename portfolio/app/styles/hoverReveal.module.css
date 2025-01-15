@@ -1,0 +1,40 @@
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.revealText {
+  font-size: 4rem;
+  font-weight: bold;
+  position: inline-block;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.revealText:hover {
+  color: #0cc9e6; /* Change color on hover */
+}
+
+.revealContent {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  white-space: pre-line;
+  max-width: none;
+}
+
+.container:hover .revealContent {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}

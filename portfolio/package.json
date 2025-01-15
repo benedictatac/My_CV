@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:12f154df7e7895c6a0346c5a29b8cb4b01fa41d3d80a1cec7aff421240ce4d3e
-size 646
+
+{
+  "dependencies": {
+    "@types/react": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "next": "^15.1.4",
+    "node": "^21.2.0",
+    "postcss": "^8.4.47",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^3.4.14"
+  },
+  "name": "my-cv",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "vercel-build": "next build"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "eslint": "^9.18.0",
+    "eslint-plugin-next": "^0.0.0",
+    "typescript": "5.7.3"
+  }
+}
+
