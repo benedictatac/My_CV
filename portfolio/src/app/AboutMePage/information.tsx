@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Carousel from "../components/carousel";
 import "../styles/aboutme.css";
-import { Link } from "react-router-dom";
+
 
 
 export default function AboutMePage() {
