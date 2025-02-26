@@ -4,3 +4,13 @@
 
 
 
+.HomeButton
+{
+    color:#6b7280;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+
+
