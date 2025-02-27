@@ -1,6 +1,6 @@
 import "./styles/globals.css"; // Import global styles correctly
 import AboutMeInfo from "./AboutMePage/information";
-import HomePage from "./HomePage/aboutme";
+import HomePage from "./HomePage/home_page";
 import Introduction from "./AboutMePage/introduction";
 import Education from "./MyEducationPage/education";
 import Experience from "./MyExperiencePage/experience";
@@ -12,9 +12,9 @@ export default function mainPage(){
     // through a column based setting 
     <div className="flex flex-col min-h-screen" style = {{height :'100vg', overflowY: 'scroll'}}>
       <div className="absolute inset-0 z-0 flex justify-center items-center text-[10vw] font-extrabold text-white opacity-5 pointer-events-none select-none font-manjeet">
-        Charles Benedict Villafuerte Atanacio {/* Name as Bg for first section */}
+        Charles Benedict Villafuerte Atanacio 
       </div>
-      <main className="flex-grow"> {/* Main content span as column */}
+      <main className="flex-grow"> 
         <div className="flex-grow grid-cols-1 row-span-1">
         <section id = "home" className="flex-grow justify-center">
           <HomePage/>
