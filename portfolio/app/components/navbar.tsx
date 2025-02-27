@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16 ">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              {/* Optional logo or brand name */}
+              {/* I want to add a logo here */}
             </div>
           </div>
           <div className="hidden md:block">
@@ -17,28 +17,28 @@ const Navbar: React.FC = () => {
               <div>
                 <Link href="#home"  >
                   <button  className = "navBarButtons">
-                    <span style={{ color: "white", fontWeight: "bold" }}>Home</span>
+                   Home
                   </button>
                 </Link>
               </div>
-              <div className="navBarButtons">
-              <Link href="#aboutme"  className="text-gray-500 dark:text-gray-400 hover:bg-transparent hover:text-white rounded-lg">
-              <button> 
-                <span style = {{color : "white", fontWeight:"bold"}}>About Me</span>
+              <div >
+              <Link href="#aboutme" >
+              <button className = "navBarButtons"> 
+                About Me
               </button>
               </Link>
               </div>
              <div >
-             <Link href="#myeducation" className="navBarButtons">
-             <button>
-              <span style = {{color : "white", fontWeight:"bold"}}>Education</span>
+             <Link href="#myeducation">
+             <button className="navBarButtons">
+             Education
               </button>
               </Link>
              </div>
              <div>
-             <Link href="#myExperience" className="navBarButtons">
-             <button>
-              <span style = {{color : "white", fontWeight:"bold"}}>Experience</span>
+             <Link href="#myExperience">
+             <button  className="navBarButtons">
+              Experience
               </button>
               </Link>
              </div>

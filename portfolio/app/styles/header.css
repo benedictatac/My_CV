@@ -4,13 +4,20 @@
 
 
 
-.HomeButton
+.navBarButtons
 {
     color:#6b7280;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     cursor: pointer;
     border-radius: 0.5rem;
+    transition: color 0.5s ease-in, font-size 0.5s ease-in-out,  transform 0.3s ease-in-out;
+    font-weight: bold;
+
 }
 
-
-
+.navBarButtons:hover
+{
+    color: white;
+    transform: scale(1.1);
+    font-size: 1.2rem;
+    
+}
