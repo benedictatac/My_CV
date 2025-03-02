@@ -1,5 +1,10 @@
 import React from "react";
 import "../styles/home_page.css"
+import ReactDOM from 'react-dom'
+import { SocialIcon } from "react-social-icons";
+
+
+
 
 
 export default function HomePage(){
@@ -15,6 +20,7 @@ return (
                 {/* <span className="text-4x1 font-bold text-cyan-500"> <u>Web Development, Game Development and Artificial Intelligence. </u></span> */} I hold under my belt, multiple years of experience in part-time jobs while being a full-time student. 
                 I am currently in my last year of my  <span className="text-4x1 font-bold text-cyan-500"> Computer Engineering Degree </span> at Concordia University.
                 I knew nothing before I got into engineering but now...I know more! Hit me up 😃
+                <SocialIcon url="https://github.com/benedictatac"></SocialIcon>
             </p>
         </div>
     </div>
